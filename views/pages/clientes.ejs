@@ -1,0 +1,40 @@
+<%- contentFor('body') %>
+<h2>Clientes Cadastrados</h2>
+<table class="table table-striped table-bordered table-condensed table-hover">
+    <thead>
+        <tr>
+            <th>Numero do Cliente</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Tel. Celular</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+<% if(!(typeof retorno == "undefined")) { %>
+        <% for(cliente of retorno) { 
+            
+        %>
+        <tr>
+            <td>
+                <%= cliente.id %>
+            </td>
+            <td>
+                <%= cliente.nome %>
+            </td>
+            <td>
+                <%= cliente.email %>
+            </td>
+            <td>
+                <%= cliente.telefonefixo %>
+            </td>
+            <td>
+                <%= cliente.telefonecelular %>
+            </td>
+            <td> - </td>
+        </tr>
+        <% } %>
+<% } %>
+    </tbody>
+</table>

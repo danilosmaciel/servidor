@@ -1,0 +1,22 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "projeto para o processp seletivo",
+  "main": "server.js",
+  "repository": "",
+  "author": "danilo maciel <danilo.saepe@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "~3.2.4",
+    "express-ejs-layouts": "^2.5.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "sequelize-cli": "^5.4.0"
+  },
+  "ts": "ts-node --compilerOptions \"{\\\"module\\\":\\\"commonjs\\\"}\""
+}

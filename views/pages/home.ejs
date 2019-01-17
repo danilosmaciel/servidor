@@ -1,0 +1,19 @@
+<%- contentFor('body') %>
+<div class="jumbotron text-center">
+    Gerenciador da Plataforma
+   
+</div>
+<div class="div-formulario">
+        <form action="/cadastroclientes" method="post" >
+                <div class="form-group">
+                        <label for="Login">Login</label>
+                        <input type="text" class="form-control" name="login" id="login" required>
+                </div>
+                <div class="form-group">
+                        <label for="Senha">Senha</label>
+                        <input type="text" class="form-control" name="senha" id="senha" required>
+                </div>
+            <input type="submit" class="btn btn-primary" id="btnLogin">
+        </form>
+
+</div>

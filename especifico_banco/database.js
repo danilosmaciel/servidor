@@ -1,7 +1,7 @@
 
 module.exports = {
   username: 'projetox',
-  password: 'am511nm115',
+  password: '',
   database: 'projetox',
   host: 'mysql.projetox.kinghost.net',
   dialect: 'mysql',

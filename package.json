@@ -9,7 +9,7 @@
     "async": "~0.2.8",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "~3.2.4",
+    "express": "~3.11.0",
     "express-ejs-layouts": "^2.5.0",
     "mysql2": "^1.6.4",
     "sequelize": "^5.15.1"
